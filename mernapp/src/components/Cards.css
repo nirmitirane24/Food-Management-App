@@ -1,0 +1,70 @@
+.card {
+    width: 18rem;
+    height: 355px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color:aliceblue;
+    margin: 30px; /* Add margin to provide space around the card */
+    padding: -px; /* Add padding inside the card */
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+.container-card{
+    display: flex;
+    width: 200px;
+    margin: 2px;
+    height: 100px;
+}
+.dropdown-quantity {
+  height: 20px;
+  margin-left: -15px;
+  background-color: rgb(95, 175, 95);
+  border-radius: 5px;
+  display: inline;
+}
+.dropdown-size{
+    height: 20px;
+    margin: 5px;
+    background-color: rgb(95, 175, 95);
+    border-radius: 5px;
+    display:inline;
+}
+.total-price{
+    height: 20px;
+    margin: 2px;
+    font-size: larger;
+    font-weight: bold;  
+}
+.addtocart-btn {
+  background-color: rgb(95, 175, 95);
+}
+
+
+/* .card-img-top {
+  margin: -21px;
+  width: 330px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+} */

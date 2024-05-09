@@ -1,0 +1,67 @@
+/* MyOrder.css */
+
+.container-myorder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between rows */
+    margin: 20px auto;
+  }
+  
+  .card-card {
+    width: calc(25% - 20px); /* Adjust card width based on screen size */
+    margin: 10px;
+  }
+  
+  .card1 {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .card1 .card-body {
+    padding: 15px;
+  }
+  
+  .card1 .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card1 .container span {
+    margin-right: 5px;
+  }
+  
+  .card1 .container .fs-5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .column {
+    display: inline-flex;
+  }
+  
+  @media (max-width: 1200px) {
+    .card-card {
+      width: calc(33.33% - 20px); /* Adjust card width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .card-card {
+      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-card {
+      width: calc(100% - 20px); /* Adjust card width for mobile screens */
+    }
+  }
+  

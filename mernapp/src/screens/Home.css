@@ -1,0 +1,84 @@
+.card {
+  width: 18rem;
+  height: 370px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  margin: 33px;
+  padding: 5px;
+}
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  .container-card {
+    display: ruby-text;
+    width: 200px;
+    margin: 2px;
+    height: 100px;
+}
+
+.dropdown-size{
+    height: 20px;
+    margin: 5px;
+    background-color: rgb(95, 175, 95);
+    border-radius: 5px;
+    display:inline;
+}
+.total-price{
+    height: 20px;
+    margin: 2px;
+    font-size: larger;
+    font-weight: bold;
+    
+    
+}
+.category_name {
+  font-weight: bold;
+  margin-left: 35px;
+  font-size: 20px;
+}
+.row-container{
+  margin-bottom: 3px;
+  display: inline;
+}
+.column-container{
+  display:inline-block;
+  margin-right: -2px;
+  margin-left: 9px;
+}
+.addtocart-btn{
+  background-color: rgb(95, 175, 95);
+}
+
+.dropdown-quantity {
+  margin-top: 5px;
+  height: 20px;
+  margin-left: 0px;
+  background-color: rgb(95, 175, 95);
+  border-radius: 5px;
+  display: inline;
+  /* margin-right: 5px; */
+}
+.addtocart-btn {
+  margin-right: 89px;
+  background-color: rgb(95, 175, 95);
+}

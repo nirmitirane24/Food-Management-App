@@ -1,0 +1,76 @@
+body {
+    background-color: #9da19d;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-signup {
+    width: 300px;
+    padding: 59px;
+    border: 1px solid #fff8f8;
+    border-radius: 20px; /* Increased border radius */
+    background-color: #f0f6f2;
+    transition: all 0.5s ease; /* Transition effect for smooth hover */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.container-signup:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+}
+
+.container-signup h2 {
+    text-align: center;
+}
+
+.container-signup form {
+    margin-top: 20px;
+}
+
+.container-signup form .mb-3 {
+    margin-bottom: 20px;
+    margin-right: 23px;
+}
+
+.container-signup form label {
+    font-weight: bold;
+}
+
+.container-signup form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f9f5f5;
+    border-radius: 5px;
+}
+
+.container-signup form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d3124;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-signup p {
+    text-align: center;
+}
+
+.container-signup p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container-signup p a:hover {
+    text-decoration: underline;
+}
+.form-control{
+    background-color:#dbe0dc;
+}
+

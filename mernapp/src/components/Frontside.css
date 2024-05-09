@@ -1,0 +1,62 @@
+.frontside-container {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 680px;
+    display: block;
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 181px; /* Adjust as needed */
+  }
+  .search-button {
+    width: 150px; /* Adjust button width as needed */
+    height: 50px; /* Adjust button height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    color: black;
+  }
+  .form.d-flex{
+    width:100px;
+    height:40px;
+  }
+  .form.d-flex {
+    width: 200px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+  }
+
+  
+ 
+ .form-control {
+  background-color:rgb(240, 232, 223);
+  padding: 13px;
+  border-radius: 10px; 
+  width: 390px;
+   
+  }
+  
+  .bsearch{
+    font-weight: bold;
+    background-color: #dbe0dc;
+    padding: 14px;
+    color: black; /* Set text color to black */
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .form-control{
+    margin-right: 11px;
+  }
+
+
+  
